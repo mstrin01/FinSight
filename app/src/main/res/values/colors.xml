@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="sage">#7FA99B</color>
+    <color name="off_white">#FAFAF8</color>
+    <color name="charcoal">#2E2E2E</color>
+    <color name="muted_blue">#5F7ADB</color>
+    <color name="terracotta">#C97C5D</color>
+    <color name="sand">#EDE6DB</color>
+
 </resources>
