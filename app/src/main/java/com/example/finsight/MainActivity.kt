@@ -1,24 +1,23 @@
 package com.example.finsight
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        // THIS LINE IS CRITICAL
+        installSplashScreen()
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-        val textView = findViewById<TextView>(R.id.tvMessage)
-        val button = findViewById<Button>(R.id.btnChange)
+        // DO NOT set a layout here
+        // DO NOT call setContentView
 
-        button.setOnClickListener {
-            Toast.makeText(this,"Button clicked",Toast.LENGTH_SHORT).show()
-            textView.text = "Text changed! "
-        }
+        startActivity(Intent(this, HomeActivity::class.java))
+        finish()
     }
-
 }
