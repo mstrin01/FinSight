@@ -6,7 +6,7 @@
     </style>
     <style name="Theme.FinSight.Splash" parent="Theme.SplashScreen">
         <item name="android:windowSplashScreenBackground">@color/sage</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_text</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/finsight_logo</item>
         <item name="android:windowSplashScreenIconBackgroundColor">@color/terracotta</item>
         <item name="postSplashScreenTheme">@style/Theme.FinSight</item>
     </style>
