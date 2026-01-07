@@ -17,6 +17,7 @@
         android:layout_marginBottom="24dp" />
 
     <EditText
+        android:id="@+id/etAmount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Amount (€)"
@@ -24,12 +25,14 @@
         android:layout_marginBottom="16dp" />
 
     <EditText
+        android:id="@+id/etCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Category"
         android:layout_marginBottom="24dp" />
 
     <Button
+        android:id="@+id/btnSaveExpense"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save expense"
