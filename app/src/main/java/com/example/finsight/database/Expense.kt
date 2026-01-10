@@ -1,5 +1,6 @@
 package com.example.finsight.database
 
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -12,5 +13,4 @@ data class Expense(
     val category: String,
     val note: String?,
     val timestamp: Long
-
 )
